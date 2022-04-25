@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tabs {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.588);
+  font-size: 2rem;
+  padding: 10px;
+  width: 20%;
+  float: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.tabs li:hover {
+  background-color: #ddd;
+}
+
+h3 {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 40px;
+  margin: auto 600px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#increment-btn {
+  background-color: firebrick;
+  margin: auto 600px;
+}
+#add10-btn {
+  background-color: rgb(87, 101, 175);
+  margin: auto 600px;
+}
+#save-btn {
+  background-color: rgb(183, 183, 24);
+  margin: auto 600px;
+  
+}
+#count-el {
+  margin: auto 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 30px;
+}
+#save-el {
+  color: white;
+  font-size: 30px;
+}
+#add-ex {
+  color: white;
+  font-size: 30px;
+  background-color: rgba(178, 34, 34, 0.684);
+  width:30%;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 30px;
+
+}
+.first-count {
+  background-color: rgb(183, 183, 24);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  width:30%;
+  display: flex;
+  flex-direction: row;
+}
+#reset-btn {
+  background-color: rgb(59, 59, 56);
+  margin: auto 600px;
+}
+#result {
+  background-color: grey;
+}

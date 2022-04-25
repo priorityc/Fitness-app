@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <script src='app.js'></script>
+  <nav>
+    <ul class='tabs'>
+      <li onclick='addPushup()'>Pushups</li>
+      <li onclick='addBack()'>Back</li>
+      <li onclick ='addSquats()'>Squates</li>
+    </ul>
+  </nav>
+  <ul class='tabs'>
+    <li onclick='addexExercise()'>Add Set</li>
+    <li onclick='addexExercise()'>Add time</li>
+    <li onclick='addexExercise()'>Add breack</li>
+  </ul>
+</nav>
+  <p id="welcome"></p>
+  <h2 id="count-el">0</h2>
+  <h3 id='your-added-ex'></h3>
+  <button id='increment-btn' onclick='increment()'>INCREMENT</button>
+  <div class='count'>
+    <div class='first-count'>
+  <p id='add-ex'></p>
+  <p id='save-el'></p></div>
+  <div>
+  
+  <div>
+  <p id='add-extwo'></p>
+  <p id='save-eltwo'></p></div>
+  <div>
+  <p id='add-exthree'></p>
+  <p id='save-elthree'></p></div>
+  </div>
+  <button id='result'>Result</button></div>
+  <br />
+  <br />
+  <button id='add10-btn' onclick='addTen()'>Add 10</button>
+  <br />
+  <br />
+  <button id='save-btn' type='button' onclick='save(), repeatCount()' >Save</button>
+  <button id='reset-btn' type='button' onclick='resetCount()'>Reset</button>
+</body>
+</html>
